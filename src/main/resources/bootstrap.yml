@@ -2,6 +2,6 @@ spring:
   cloud:
     config:
       name: config-client
-      uri: http://localhost:1201/
+      uri: http://localhost:12111/
       profile: defualt
       label: master
