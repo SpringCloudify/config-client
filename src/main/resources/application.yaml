@@ -1,13 +1,6 @@
+info:
+  description: Spring
+
 spring:
   profiles:
     active: dev
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    registerWithEureka: true
-    #是否拉取并缓存其他服务注册表副本到本地
-    fetchRegistry: true
-    serviceUrl:
-      eureka-server-port: 11111
