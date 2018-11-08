@@ -1,3 +1,6 @@
+info:
+  description: Spring
+
 spring:
   profiles:
     active: dev

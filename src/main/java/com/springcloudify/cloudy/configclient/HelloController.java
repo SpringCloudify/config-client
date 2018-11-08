@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class HelloController {
 
-    @Value("${info.profile}")
+    @Value("${app.greet.name}")
     private String hello;
 
     @RequestMapping("/hello")
