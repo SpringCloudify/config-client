@@ -1,4 +1,4 @@
-package com.springcloudify.cloudy.configclient;
+package com.springcloudify.cloudify.configclient;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

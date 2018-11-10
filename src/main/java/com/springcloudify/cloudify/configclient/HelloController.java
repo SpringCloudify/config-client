@@ -1,4 +1,4 @@
-package com.springcloudify.cloudy.configclient;
+package com.springcloudify.cloudify.configclient;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
