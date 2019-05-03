@@ -27,12 +27,14 @@ spring:
 
 eureka:
   instance:
-    appname: hes-hospital
+    appname: config-client
     hostname: localhost
-    instance-id: hes-hospital@${eureka.instance.hostname}:${server.port}:${random.int}
+    instance-id: config-client@${eureka.instance.hostname}:${server.port}
     non-secure-port: 11001
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${eureka.instance.non-secure-port}/eureka/
+    healthcheck:
+      enabled: true
