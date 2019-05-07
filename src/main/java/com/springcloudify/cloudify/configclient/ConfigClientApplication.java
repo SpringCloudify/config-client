@@ -1,8 +1,7 @@
-package com.springcloudify.cloudy.configclient;
+package com.springcloudify.cloudify.configclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.SpringCloudApplication;
 
 //@SpringCloudApplication
 @SpringBootApplication
