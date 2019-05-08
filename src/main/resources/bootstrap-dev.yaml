@@ -13,11 +13,12 @@ spring:
 
     config:
       name: config-client
+      label: master
       profile: dev
 
       discovery:
-        enabled: true
         service-id: config-server
+        enabled: true
 
   rabbitmq:
     host: localhost
@@ -31,6 +32,7 @@ eureka:
     hostname: localhost
     instance-id: config-client@${eureka.instance.hostname}:${server.port}
     non-secure-port: 11001
+
   client:
     registerWithEureka: true
     fetchRegistry: true

@@ -1,13 +1,6 @@
 info:
-  description: Spring
+  description: config-client
 
 spring:
   profiles:
     active: dev
-
-  cloud:
-    config:
-      name: config-client
-      uri: http://localhost:10001/
-      profile: defualt
-      label: master
